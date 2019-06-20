@@ -74,11 +74,11 @@ namespace Example
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine(36.001 % 2);
-           // Console.WriteLine("Func178b: " + AlgorithmTask.Func178b());
-           // Console.WriteLine("Func178v: " + AlgorithmTask.Func178v());
+            Console.WriteLine(36.001 % 2);
+            Console.WriteLine("Func178b: " + AlgorithmTask.Func178b());
+            Console.WriteLine("Func178v: " + AlgorithmTask.Func178v());
             
-            // AlgorithmTask.Func554();
+            AlgorithmTask.Func554();
             Console.WriteLine("Func554: ");
             int time = 0;
             foreach(int i in AlgorithmTask.Func554())
